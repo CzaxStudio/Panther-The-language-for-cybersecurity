@@ -7,23 +7,31 @@
 <body>
 
 <div class="container">
-    <h1>🐆 Online Panther Compiler (Demo)</h1>
+
+    <h1>🐆 Online Panther Compiler</h1>
 
     <textarea id="codeArea">
-Compute("=== Panther Demo ===")
+Compute("=== Panther 1.0 Demo ===")
 ResolveDNS example.com
 PortScan example.com 80
 GenerateStrongPassword 16
     </textarea>
 
-    <button onclick="runPanther()">▶ Run</button>
+    <div class="buttons">
+        <button onclick="runPanther()">▶ Run</button>
+        <button onclick="clearOutput()">🧹 Clear</button>
+        <a href="https://github.com/YOUR_USERNAME/Panther" target="_blank">
+            <button class="download">⬇ Download Real Compiler</button>
+        </a>
+    </div>
 
     <pre id="output"></pre>
 
     <p class="note">
-        ⚠ This is a demo environment.  
-        Download the real Panther compiler for full power.
+        ⚠ This is a simulated demo environment.  
+        Download the real Panther compiler for full features.
     </p>
+
 </div>
 
 <script src="panther.js"></script>
