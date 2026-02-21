@@ -13,10 +13,6 @@
   Secure • Blazing fast • Easy
 </p>
  
-**Blazing fast**
-
-**Single Standalone Executable**
-
 # What is Panther?
 
 Panther is a high-performance scripting language designed specifically for:
