@@ -32,6 +32,8 @@ Built in Go, Panther compiles to native machine code and delivers 5–10x faster
 No pip installs. No dependency hell. Just one executable.
 
 # Quick Example
+
+-- Panther
 var target = "example.com";
 
 Print("Scanning " + target);
@@ -41,6 +43,8 @@ Dns_Lookup(target);
 Scan_Port("8.8.8.8", 80);
 
 Run:
+
+-- bash
 
 ./panther script.pnr
 # Key Features
