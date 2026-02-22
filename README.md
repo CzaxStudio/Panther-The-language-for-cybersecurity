@@ -80,6 +80,12 @@ Panther script.pnr (After adding to path) or use this -- (If not added to Path)
 
 ./Panther script.pnr (By being in same folder)
 
+# Get Panther(For Linux CLI)
+
+wget https://github.com/CzaxStudio/Panther/releases/latest/download/Panther
+chmod +x panther
+sudo mv panther /usr/local/bin/
+
 # Ethical Use
 
 Panther is intended for:
