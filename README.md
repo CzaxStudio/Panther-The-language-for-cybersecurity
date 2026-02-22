@@ -72,6 +72,14 @@ cd panther
 
 go build -ldflags="-s -w" -trimpath -o panther Panther.go
 
+## Usage
+
+Run a Panther script:
+
+Panther script.pnr (After adding to path) or use this -- (If not added to Path)
+
+./Panther script.pnr (By being in same folder)
+
 # Ethical Use
 
 Panther is intended for:
