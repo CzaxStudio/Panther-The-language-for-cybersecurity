@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  Secure • Blazing fast • Easy
+  Secure • Fast • Easy
 </p>
  
 # What is Panther?
@@ -27,7 +27,7 @@ Security Auditing
 
 Password Intelligence
 
-Built in Go, Panther compiles to native machine code and delivers 5–10x faster execution than equivalent Python scripts.
+Built in Go, Panther scripts are executed by a native Go runtime and delivers faster execution.
 
 No pip installs. No dependency hell. Just one executable.
 
@@ -91,4 +91,4 @@ MIT License
 **Enjoy!** 
                                                 
                                                
-Unknown Creator(Czax Studio)
+Maintainer of Czax Studio
